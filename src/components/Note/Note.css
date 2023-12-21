@@ -1,0 +1,67 @@
+.note {
+  margin: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out;
+  width: 250px; /* Adjust the width as needed */
+  max-width: 100%;
+}
+
+.note:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+/* Title styles */
+.note h3 {
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.inputText {
+  width: 80% !important;
+}
+/* Content styles */
+.note p {
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+/* Buttons styles */
+.note button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Edit and Delete buttons */
+.note button:nth-of-type(1) {
+  margin-right: 10px;
+  background-color: #4caf50;
+  color: white;
+}
+
+.note button:nth-of-type(2) {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Color picker styles */
+.note input[type='color'] {
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Responsive styles for mobile devices */
+@media screen and (max-width: 600px) {
+  .note {
+    width: 80%;
+  }
+}

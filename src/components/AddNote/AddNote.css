@@ -1,0 +1,54 @@
+.add-note {
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input field styles */
+input[type='text'],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+/* Input field focus styles */
+input[type='text']:focus,
+textarea:focus {
+  border-color: #007bff;
+}
+
+/* Button styles */
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Button hover styles */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive styles for smaller devices */
+@media screen and (max-width: 600px) {
+  input[type='text'],
+  textarea,
+  button {
+    font-size: 14px;
+  }
+}

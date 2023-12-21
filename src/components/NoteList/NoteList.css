@@ -1,0 +1,14 @@
+.note-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
+}
+
+/* Responsive styles for mobile devices */
+@media screen and (max-width: 600px) {
+  .note-list {
+    grid-template-columns: repeat(auto-fill, minmax(80%, 1fr));
+    gap: 30px;
+  }
+}
